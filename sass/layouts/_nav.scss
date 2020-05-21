@@ -1,0 +1,29 @@
+@import "../utils/variables";
+
+.navbar {
+    background-color: $color-pages !important;
+   
+}
+
+@media (min-width: 768px) {
+    .nav-link {  
+        font-size: x-large;
+        font-family: 'Righteous', cursive;
+    }
+
+    .dropdown-item {
+        font-family: 'Righteous', cursive;
+    }
+}
+
+@media (max-width: 768px) {
+    .nav-link {  
+        font-size: medium;
+        font-family: 'Righteous', cursive;
+    }
+
+    .dropdown-item {
+        font-size: small;
+        font-family: 'Righteous', cursive;
+    }
+}

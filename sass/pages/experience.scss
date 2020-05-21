@@ -1,0 +1,42 @@
+@import "../utils/variables";
+@import "../base/typography";
+@import "../layouts/nav";
+@import "../layouts/footer";
+
+body {
+    background-color: $color-pages;
+}
+
+
+img {
+    height: 8rem;
+    width: 80%;
+    padding: 1rem;
+}
+
+
+.builton-header, .eckbo-header, .se-header, .exim-header {
+    background-color: rgba(142,145,146,0.3);
+    border-radius: 0.5em;
+    text-align: center;
+}
+
+.builton-body, .eckbo-body, .se-body, .exim-body {
+    padding: 1rem;
+    font-family: 'Philosopher', sans-serif;
+}
+
+.container-fluid {
+    margin: 1rem 0;
+}
+
+h6 {
+    font-weight: 700;
+    line-height: 2rem;
+}
+
+p {
+    font-style: italic;
+    line-height: 0.5rem;
+}
+

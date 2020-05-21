@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <!-- Fontawesome for footer icons -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css" integrity="sha384-Bfad6CLCknfcloXFOyFnlgtENryhrpZCe29RTifKEixXQZ38WheV+i/6YWSzkz3V" crossorigin="anonymous">
+
+    <!-- CSS stylesheet -->
+    <link href="styles/index.css" type="text/css" rel="stylesheet">
+    <title>My Webpage</title>
+  </head>
+  <body>
+
+    <!-- Navigation -->
+    <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+              <li class="nav-item active">
+                  <a class="nav-link" href="index.html">About <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="experience.html">Experience</a>
+              </li>
+              <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="education.html" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      Education
+                  </a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                      <a class="dropdown-item" href="education.html#degrees">Degrees</a>
+                      <a class="dropdown-item" href="education.html#certifications">Certifications</a>
+                      <a class="dropdown-item" href="education.html#courses">Courses</a>
+                  </div>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="projects.html">Projects</a>
+              </li>
+          </ul>
+      </div>
+    </nav>
+
+    <!-- Info-card -->
+    <div class="container-fluid">
+      <div class="row">
+          <div class="col-lg-1 col-sm-2 col-4">
+              <img class="mypic" src="images/YS.jpg">
+          </div>
+          <div class="col-lg-11 col-sm-10 col-8">
+            <div class="YS-text">
+              <h5 class="YS-title">Yeliena Struts</h5>
+              <p class="YS-text">Web-developer, marketing specialist and more... 
+                <span><a href="#skills" class="btn btn-primary">View Profile</a></span></p>
+            </div>
+          </div>
+      </div>
+    </div>
+
+    <!-- Carousel -->
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="images/apps.jpeg" class="d-block w-100" alt="code">
+        </div>
+        <div class="carousel-item">
+          <img src="images/marketing.jpeg" class="d-block w-100" alt="marketing">
+        </div>
+        <div class="carousel-item">
+          <img src="images/bigdata.jpeg" class="d-block w-100" alt="analytics">
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+
+    <!-- Skills Section -->
+    <section id="skills">
+      <div class="container-fluid">
+        <div class="row justify-content-around">
+          <div class="col-auto">
+            <h5>Languages</h5>
+            <table>
+              <tr>
+                <td><img class="flag" src="images/ukraine.svg"></td>
+                <td>Native Ukrainian</td>
+              </tr>
+              <tr>
+                <td><img class="flag" src="images/russia.svg"></td>
+                <td>Native Russian</td>
+              </tr>
+              <tr>
+                <td><img class="flag" src="images/united-kingdom.svg"></td>
+                <td>Fluent English</td>
+              </tr>
+              <tr>
+                <td><img class="flag" src="images/norway.svg"></td>
+                <td>Advanced Norwegian</td>
+              </tr>
+              <tr>
+                <td><img class="flag" src="images/republic-of-poland.svg"></td>
+                <td>Basic Polish</td>
+              </tr>
+              <tr>
+                <td><img class="flag" src="images/spain.svg"></td>
+                <td>Basic Spanish</td>
+              </tr>
+            </table>
+          </div>
+          <div class="col-auto">
+            <h5>Programming skills</h5>
+            <ul>
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>SASS</li>
+              <li>Bootstrap</li>
+              <li>JavaScript</li>
+              <li>React</li>
+              <li>Node</li>
+              <li>Python</li>
+            </ul>
+          </div>
+         <div class="col-auto">
+           <h5>Marketing skills</h5>
+           <ul>
+             <li>Salesforce</li>
+             <li>Event Management</li>
+             <li>Customer Acquisition</li>
+           </ul>
+        </div>
+        <div class="col-auto">
+          <h5>Analytical skills</h5>
+          <ul>
+            <li>Google Analitics</li>
+            <li>SQL</li>
+            <li>Stata</li>
+            <li>Hotjar</li>
+            <li>Tableau</li>
+            <li>Excel</li>
+          </ul>
+        </div>
+        <div class="col-auto">
+          <h5>Other skills</h5>
+          <ul>
+            <li>InDesign</li>
+            <li>Latex</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <div class="container">
+        <a href="https://github.com/LenaStruts" target="_blank"><i class="fab fa-github"></i></a>
+        <a href="https://www.linkedin.com/in/yeliena-struts-5aa96292/" target="_blank"><i class="fab fa-linkedin"></i></a>
+        <a href="tel:+4746576668"><i class="fas fa-phone-alt" target="_blank"></i></a>
+        <a href="mailto:lena@struts.business" target="_blank"><i class="fas fa-envelope"></i></a>
+      </div>
+    </footer>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  </body>
+</html>

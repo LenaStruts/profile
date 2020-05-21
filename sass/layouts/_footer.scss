@@ -1,0 +1,27 @@
+@import "../utils/variables";
+
+footer {
+    height: 5rem;
+}
+
+a {
+    padding: 3rem;
+}
+
+.container {
+    text-align: center;
+}
+
+.container a {
+    color: $color-icons;
+    font-size: 2rem;
+    
+}
+
+a i {
+    &:hover {
+        transition: transform 1000ms cubic-bezier(.01,.99,.01,.99);               
+        transform: scale(1.9);
+    }
+}
+
