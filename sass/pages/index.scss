@@ -1,0 +1,43 @@
+@import "../utils/variables";
+@import "../utils/extensions";
+@import "../base/typography";
+@import "../layouts/nav";
+@import "../components/buttons";
+@import "../components/carousel";
+@import "../layouts/footer";
+
+
+body {
+    background-color: $color-pages;
+}
+
+.mypic {
+    width: 110px;
+    border-radius: 0.7rem;
+    margin: 0.5rem;
+}
+
+.YS-text {
+    padding: 0.5rem 1rem;
+    font-family: 'Philosopher', sans-serif;
+    .YS-title {
+        padding-left: 1rem;
+        font-family: 'Pacifico', cursive;
+    }
+}
+
+#skills {
+    padding: 1rem;
+    @extend %fonts;
+}
+
+.flag {
+    width: 1rem;
+}
+
+td {
+    margin: 1rem;
+}
+
+
+

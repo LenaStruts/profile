@@ -1,0 +1,26 @@
+@import "../utils/variables";
+@import "../utils/extensions";
+@import "../base/typography";
+@import "../layouts/nav";
+@import "../components/buttons";
+@import "../layouts/footer";
+
+
+body {
+    background-color: $color-pages;
+}
+
+dl dt {
+    display: inline-block;
+}
+
+.number, .profile {
+    padding: 3rem;
+    @extend %fonts;
+}
+
+
+
+
+
+
