@@ -1,6 +1,10 @@
 # project0
+
 In this project I built my web-profile website using HTML, CSS, SASS and Bootstrap. It consists of 4 pages: About, Experience, Education and Projects. To navigate between the pages, I used the Bootstrap navbar component, which I styled a bit and added media queries to control the font-size for various devices’ screen sizes. Another section present at all pages is the footer, which contains social icons linked to my GitHub and LinkedIn account as well as giving the opportunity to call or send and e-mail. The icons are animated when hovered using transform property. Throughout the website I used the Bootstrap grid to create the responsive columns for various devices’ screen sizes.
+
 The About page contains a profile-card, the Bootstrap carousel component and a skills section. For creating carousel, I used the Bootstrap component, it has controls and indicators. The pictures used for the carousel are licensed from the AdobeStock. The button in the profile-card changes its background and text color when hovered and brings you to the skills section. In the skills section I used the bootstrap grid for making responsive columns. Languages subsection is organized using the HTML table. 
 On the Experience page I used the Bootstrap grid again to create responsive columns to organize my experiences on the page based on the devices’ screen size. All the logos used for the headers are in svg format to allow for the best quality when zoomed. In the Navbar education section has a dropdown menu to allow to easily navigate throw the page. It contains tree section with the information about degrees and certifications received and courses taken. There are links in web-analytics courses sub-section to view the course certificates.
+
 The projects page has an information about the projects I have been working on so far, including this project. Here you can find web-sites screencasts and GibHub pages links.
+
 Another thing, I can’t but mention is the 7-1 system I used to organize SASS. Pieces of reusable code were organized in partials and imported on the particular pages’ stylesheets.  
