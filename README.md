@@ -1,4 +1,4 @@
-# project0
+# profile
 
 In this project I built my web-profile website using HTML, CSS, SASS and Bootstrap. It consists of 4 pages: About, Experience, Education and Projects. To navigate between the pages, I used the Bootstrap navbar component, which I styled a bit and added media queries to control the font-size for various devices’ screen sizes. Another section present at all pages is the footer, which contains social icons linked to my GitHub and LinkedIn account as well as giving the opportunity to call or send and e-mail. The icons are animated when hovered using transform property. Throughout the website I used the Bootstrap grid to create the responsive columns for various devices’ screen sizes.
 
